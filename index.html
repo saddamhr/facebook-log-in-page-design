@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-     <div class="header">
+
+    <!-- START HEADER AREA -->
+     <header class="header">
          <div class="container">
             <div class="logo-area">
                 <img src="assets/logo.png" alt="Facebook">
@@ -32,6 +34,79 @@
                 </form>
             </div>
          </div>
-     </div>   
+        </header>
+        <!-- END HEADER AREA -->
+
+        <!-- START SIGN UP AREA -->
+        <section class="signup-area">
+            <div class="left-area">
+                <p>Facebook helps you connect and share with the people in your life.</p>
+                <img src="assets/connect-with-people.png" alt="Connect With People">
+            </div>
+            <div class="right-area">
+                <h2>Create an account</h2>
+                <h4>It's quick and easy.</h4>
+                <form action="#" method="POST">
+                    <div class="full-name">
+                        <div class="first-name">
+                            <input type="text" placeholder="First name">
+                        </div>
+                        <div class="surname">
+                            <input type="text" placeholder="Surname">
+                        </div>
+                    </div>
+                    <input type="text" placeholder="Mobile number or email address">
+                    <input type="password">
+                    <div class="birthday">
+                        <h4>Birthday</h4>
+                        <div class="birth-date">
+                            <select>
+                                <option value="day">Day</option>
+                                <option value="day">1</option>
+                                <option value="day" selected>2</option>
+                                <option value="day">3</option>
+                                <option value="day">4</option>
+                                <option value="day">5</option>
+                                <option value="day">6</option>
+                            </select>
+                            <select>
+                                <option value="month">Month</option>
+                                <option value="jan">Jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="mar">Mar</option>
+                                <option value="apr" selected>Apr</option>
+                                <option value="may">May</option>
+                            </select>
+                            <select>
+                                <option value="year">Year</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016" selected>2016</option>
+                                <option value="2015">2015</option>
+                            </select>
+                        </div>
+                        <div class="birth-link">
+                            <a href="#">Why do I need to provide my date of birth</a>
+                        </div>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" name="" id="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="text-box">
+                        <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="Sign Up">
+                    </div>
+                </form>
+                <span class="business"><a href="#">Create a Page</a> for a celebrity, band or business.</span>
+            </div>
+        </section>
+        <!-- END SIGN UP AREA -->
+
 </body>
 </html>
