@@ -224,3 +224,49 @@ body {
 .business:hover a{
     text-decoration: underline;
 }
+
+/* End Sign Up Area */
+.footer-area {
+    padding: 30px 0;
+}
+
+.footer-area ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-area ul li {
+    display: inline;
+}
+.footer-area ul li a {
+    text-decoration: none;
+    color: #365899;
+    font-size: 13px;
+}
+.footer-area ul li.active a{
+    color: #737373;
+}
+.footer-area .top ul li {
+    margin-right: 8px;
+}
+.footer-area .middle ul li {
+    margin-right: 12px;
+}
+.footer-area .top ul li:last-child a {
+    border: 1px solid #999;
+    padding: 0 6px;
+}
+.footer-area .top ul li:last-child,
+.footer-area .bottom ul li:last-child {
+    margin-right: 0;
+}
+.footer-area .bottom{
+    margin-top: 2px;
+}
+.footer-area span {
+    color: #737373;
+    font-size: 13px;
+}
+.footer-area hr {
+    border: 0;
+    border-bottom: 1px solid #d4d4d4;
+}
